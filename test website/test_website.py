@@ -7,6 +7,7 @@ app = flask.Flask(__name__)
 def home():
     return flask.render_template("home.html")
 
+
 @app.route("/a")
 def page_a():
     return flask.render_template("a.html")
